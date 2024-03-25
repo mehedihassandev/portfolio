@@ -4,7 +4,7 @@ import React from "react";
 import { testimonials } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
-import { fadeIn, textVariant } from "../utils/motion";
+import { fadeIn, textVariant } from "../../src//utils/Motion";
 
 const FeedbackCard = ({ index, testimonial, name, designation, company, image }) => (
   <motion.div

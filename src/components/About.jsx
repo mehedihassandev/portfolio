@@ -4,7 +4,7 @@ import { Tilt } from 'react-tilt'
 import { services } from '../constants'
 import { SectionWrapper } from '../hoc'
 import { styles } from '../styles'
-import { fadeIn, textVariant } from '../utils/motion'
+import { fadeIn, textVariant } from '../../src/utils/Motion'
 
 
 const ServiceCard = ({ index, title, icon }) => (

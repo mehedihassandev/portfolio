@@ -5,7 +5,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
-import { textVariant } from "../utils/motion";
+import { textVariant } from "../../src//utils/Motion";
 
 const ExperienceCard = ({ experience }) => {
   return (

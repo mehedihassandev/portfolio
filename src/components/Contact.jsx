@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import React, { useRef, useState } from 'react';
 import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
-import { slideIn } from '../utils/motion';
+import { slideIn } from '../../src/utils/Motion';
 import { EarthCanvas } from "./canvas";
 
 const Contact = () => {
